@@ -22,9 +22,16 @@ public class Ejercicio6 {
 				contadormayores++;
 			}
 			
-			
+			System.out.println("Añada la edad de otro alumno o ponga un numero negativo para terminar");
+			edad = sc.nextInt();
 			
 		}
+		
+		
+		System.out.println("Suma total de todas las edades: "+suma+" años");
+		System.out.println("Edad media: "+suma/contador+" años");
+		System.out.println("Numero de alumnos: "+contador);
+		System.out.println("Alumnos mayores de edad: "+contadormayores);
 		
 		sc.close();
 	}
